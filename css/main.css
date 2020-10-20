@@ -6868,3 +6868,8 @@ body {
     padding-right: 20px;
     margin-top: -30px;
     color: #f57f17; }
+
+.row-1,
+.row-2,
+.row-3 {
+  opacity: 0; }
