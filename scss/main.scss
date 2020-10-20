@@ -5,8 +5,17 @@
 $header-bg: url(../img/pattern.png);
 $header-height: 300px;
 
+// Text color function
+@function set-text-color($color) {
+  @if (lightness($color) >50) {
+    @return #000000;
+  } @else {
+    @return #ffffff;
+  }
+}
 body {
   background: $primary-color;
+  color: set-text-color($primary-color);
 }
 .main-header {
   background: $header-bg;
