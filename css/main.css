@@ -6853,3 +6853,6 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 300px; }
+
+.card-content {
+  color: #f57f17; }
