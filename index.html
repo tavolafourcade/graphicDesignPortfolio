@@ -142,7 +142,7 @@
             <div class="card-content">
               <p>
                 <i class="material-icons">star</i>
-                <i class="material-icons">star</i>
+                <i class="material-icons">star_half</i>
 
               </p>
             </div>
@@ -186,14 +186,70 @@
     </div>
   </footer>
 
+    <!-- Modal 1 -->
+    <div id="abstract1" class="modal">
+      <div class="modal-content">
+        <h4>Boggie</h4>
+        <img src="./img/gallery/abstract1.jpg" alt="" class="responsive-img">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, iusto? Nostrum ex architecto veritatis, possimus aperiam perspiciatis facilis adipisci nisi?
+      </div>
+      <div class="modal-footer">
+        <p>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Modal 2 -->
+    <div id="abstract2" class="modal">
+      <div class="modal-content">
+        <h4>Foodie</h4>
+        <img src="./img/gallery/abstract2.jpg" alt="" class="responsive-img">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, iusto? Nostrum ex architecto veritatis, possimus aperiam perspiciatis facilis adipisci nisi?
+      </div>
+      <div class="modal-footer">
+        <p>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div id="abstract3" class="modal">
+      <div class="modal-content">
+        <h4>Squirrel</h4>
+        <img src="./img/gallery/abstract3.jpg" alt="" class="responsive-img">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, iusto? Nostrum ex architecto veritatis, possimus aperiam perspiciatis facilis adipisci nisi?
+      </div>
+      <div class="modal-footer">
+        <p>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star_half</i>
+        </p>
+      </div>
+    </div>
+
+    
+
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
     $(document).ready(function () {
-      // Custom JS & jQuery here
       
+      // Init Sidenav
       $('.button-collapse').sideNav();
+
+      // Init Modal
+      $('.modal').modal();
     });
   </script>
 </body>

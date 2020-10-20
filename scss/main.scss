@@ -13,6 +13,7 @@ $header-height: 300px;
     @return #ffffff;
   }
 }
+
 body {
   background: $primary-color;
   color: set-text-color($primary-color);
@@ -45,5 +46,15 @@ body {
 
   .footer-copyright {
     background: $secondary-color-light;
+  }
+}
+
+.modal {
+  color: #333333;
+
+  .modal-footer {
+    padding-right: 20px;
+    margin-top: -30px;
+    color: $primary-color;
   }
 }

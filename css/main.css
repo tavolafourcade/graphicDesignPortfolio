@@ -6861,3 +6861,10 @@ body {
   background: #212121; }
   .page-footer .footer-copyright {
     background: #424242; }
+
+.modal {
+  color: #333333; }
+  .modal .modal-footer {
+    padding-right: 20px;
+    margin-top: -30px;
+    color: #f57f17; }
